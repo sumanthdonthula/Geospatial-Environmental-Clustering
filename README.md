@@ -33,8 +33,6 @@ In total, we have **Water and Air Quality data** for the years 2017 to 2021 in t
 
 - **Data cleaning:** The data was in different formats for each year. We converted and processed the data in the same format so it's easy to process this file.
 
-![Snapshot of Air Quality Data](air_quality_snapshot.png)
-
 Most of our efforts in the project went into processing this file because it's not in a proper format with multiple sheets in excel. Moreover, each sheet has a particular feature. For example, in sheet1 PM2.5 values are there, and in sheet2 PM10 values are there.
 
 Moreover, if we see there are blank values in the state and city because, for example, Bihar state is repeated twice in 4 and 5 rows, so the 5th row has a state value as blank. We need to fill this, and for each record, we are flagging its measure, which is present in column 5, and pivoting it via the mean of measures. Once this part is done, we are taking means and filling blank values in our data frame.
@@ -81,7 +79,6 @@ For water and air quality analysis in Indian states, we used k-means clustering 
 | Outdoor bathing (Organised)                   | Dissolved Oxygen 6mg/l or more |
 | Biochemical Oxygen Demand 5 days 20C 2mg/l or less | Total Coliforms Organism MPN/100ml shall be 500 or less |
 | pH between 6.5 and 8.5 | Dissolved Oxygen 5mg/l or more |
-                  | 
 
 K-means clustering can provide valuable insights into the water quality status of Indian states, such as identifying states with similar water quality profiles or identifying states with poor water quality that require immediate attention. However, like any clustering technique, the interpretation of results should be done with caution, and additional domain knowledge and contextual information should be taken into account. We have performed K Means clustering with 6 clusters on our filtered dataset. Then once the clusters are formed, as we have assigned ranks to the clusters based on their features like Fecal Coliform, BOD, Dissolved O2, PM10, PM2.5, and NO2.
 
