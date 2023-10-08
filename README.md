@@ -1,7 +1,7 @@
 ## Water Quality Prediction
 
-**Sumanth Donthula, **
-**Ashmita Gupta**
+**Sumanth Donthula**
+**, Ashmita Gupta**
 
 ### Abstract
 
