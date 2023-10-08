@@ -1,5 +1,5 @@
 ---
-title: "DPA Project"
+title: "Geospatial Environmental Clustering Project"
 author: "Sumanth Donthula & Ashmita Gupta"
 date: "2023-04-24"
 output: pdf_document
