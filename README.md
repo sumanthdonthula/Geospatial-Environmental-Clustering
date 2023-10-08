@@ -80,10 +80,10 @@ For water and air quality analysis in Indian states, we used k-means clustering 
 | Criteria                                       | Total Coliforms Organism MPN/100ml shall be 50 or less |
 |-----------------------------------------------|--------------------------------------------------------|
 | pH between 6.5 and 8.5                        | Drinking Water Source without conventional treatment but after disinfection                                       |
-| A                                             | Dissolved Oxygen 6mg/l or more |
+| Outdoor bathing (Organised)                   | Dissolved Oxygen 6mg/l or more |
 | Biochemical Oxygen Demand 5 days 20C 2mg/l or less | Total Coliforms Organism MPN/100ml shall be 500 or less |
 | pH between 6.5 and 8.5 | Dissolved Oxygen 5mg/l or more |
-| Outdoor bathing (Organised)                   | 
+                  | 
 
 K-means clustering can provide valuable insights into the water quality status of Indian states, such as identifying states with similar water quality profiles or identifying states with poor water quality that require immediate attention. However, like any clustering technique, the interpretation of results should be done with caution, and additional domain knowledge and contextual information should be taken into account. We have performed K Means clustering with 6 clusters on our filtered dataset. Then once the clusters are formed, as we have assigned ranks to the clusters based on their features like Fecal Coliform, BOD, Dissolved O2, PM10, PM2.5, and NO2.
 
