@@ -83,4 +83,44 @@ For water and air quality analysis in Indian states, we used k-means clustering 
 | A                                             | Dissolved Oxygen 6mg/l or more |
 | Biochemical Oxygen Demand 5 days 20C 2mg/l or less | Total Coliforms Organism MPN/100ml shall be 500 or less |
 | pH between 6.5 and 8.5 | Dissolved Oxygen 5mg/l or more |
-| Outdoor bathing (Organised)                  
+| Outdoor bathing (Organised)                   | 
+
+K-means clustering can provide valuable insights into the water quality status of Indian states, such as identifying states with similar water quality profiles or identifying states with poor water quality that require immediate attention. However, like any clustering technique, the interpretation of results should be done with caution, and additional domain knowledge and contextual information should be taken into account. We have performed K Means clustering with 6 clusters on our filtered dataset. Then once the clusters are formed, as we have assigned ranks to the clusters based on their features like Fecal Coliform, BOD, Dissolved O2, PM10, PM2.5, and NO2.
+
+### Year On Year Analysis
+
+We have done the same procedure for 5 years of data and obtained the following results via clustering.
+
+### Conclusion
+
+We had data from 16 states available. Further, we have clustered states based on their water and air quality.
+
+Two key observations:
+
+- We can see that from 2017 most of the states are performing better in terms of water and air quality.
+- We observed that Chandigarh and Haryana are performing very poorly in terms of water and air quality, and some action should be taken by government authorities to clean up the water.
+
+### References
+
+**Academic Papers:**
+
+1. [Link to Academic Paper 1](https://pdxscholar.library.pdx.edu/cgi/viewcontent.cgi?article=1002&context=reu_reports)
+2. [Link to Academic Paper 2](https://www.researchgate.net/publication/351077205_Efficient_Water_Quality_Prediction_for_Indian_Rivers_Using_Machine_Learning)
+3. [Link to Academic Paper 3](https://www.mdpi.com/2306-5338/9/5/92)
+
+**Articles:**
+
+1. [Link to Article 1](https://www.datascience2000.in/2021/10/water-quality-prediction-using-machine.html)
+2. [Link to Article 2](https://www.researchgate.net/publication/361118196_The_Quality_of_Drinkable_Water_using_Machine_Learning_Techniques)
+3. [Link to Article 3](https://www.sciencedirect.com/science/article/abs/pii/S0022169419308194)
+
+**Existing projects:**
+
+- [Kaggle Project 1](https://www.kaggle.com/code/maujmishra/water-quality-index-prediction)
+- [Kaggle Project 2](https://www.kaggle.com/code/imakash3011/water-quality-prediction-7-model/notebook)
+
+**Reference Books:**
+
+- "Machine Learning Techniques for Water Quality Monitoring" by Yuanyuan Liu, Yongping Li, and Junfeng Ji
+- "Machine Learning for Environmental Monitoring" by Michael G. Schrlau and Kalyanmoy Deb
+- Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani. An Introduction to Statistical Learning: with Applications in R. New York: Springer, 2013. Print
