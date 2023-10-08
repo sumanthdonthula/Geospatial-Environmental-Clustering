@@ -1,6 +1,6 @@
 ## Water Quality Prediction
 
-**Sumanth Donthula**
+**Sumanth Donthula, **
 **Ashmita Gupta**
 
 ### Abstract
@@ -48,8 +48,6 @@ We will present Analysis for 2017 Data, and we have done the same analysis for t
 **Exploratory Data Analysis (EDA):**
 
 Visualizing the data for all features in the dataset, including Water and Air Quality Features.
-
-![EDA Visualization](eda_viz.png)
 
 We can observe that most of the attributes are normally distributed, and some attributes are skewed. Anyway, we will perform scaling before using clustering models.
 
