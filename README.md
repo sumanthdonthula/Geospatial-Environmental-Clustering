@@ -1,5 +1,9 @@
 ## Water Quality Prediction
 
+## Sample Plots
+
+![Sample Plots](Sample Visualization.jpg)
+
 **Sumanth Donthula**
 **, Ashmita Gupta**
 
